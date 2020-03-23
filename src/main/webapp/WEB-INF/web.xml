@@ -19,4 +19,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AuthServle</display-name>
+    <servlet-name>AuthServle</servlet-name>
+    <servlet-class>shvat.AuthServle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthServle</servlet-name>
+    <url-pattern>/AuthServle</url-pattern>
+  </servlet-mapping>
 </web-app>

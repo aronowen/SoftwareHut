@@ -33,7 +33,7 @@
 				<ul class="navbar-nav mr-auto">
 					<!-- Link into the data entry form -->
 					<li>
-						<form>
+						<form action="add.jsp" method="post">
 							<button class="btn btn-danger my-2 my-sm-0" type="submit">Add Request</button>
 						</form>
 					</li>
@@ -62,7 +62,7 @@
 		    		<tr class = "text-center align-middle">
 		    			<!-- This can be a form action to a servlet. Button for now "Click to View"-->
 		    			<!-- This will requrie form enumeration for each element in the DB -->
-			      		<th scope="row"><button class = "btn btn-danger py-0" >BG111</button></th>
+			      		<th scope="row"><form action = "edit.jsp" method = "post"><button class = "btn btn-danger py-0" >BG111</button></form></th>
 			      		<td>MR</td>
 			      		<td>Aron Owen</td>
 			      		<td>Denied</td>
